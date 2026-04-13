@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turni Smart — Informativa sulla privacy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 17px; margin-top: 28px; }
+    p, ul { font-size: 15px; }
+    .date { font-size: 13px; color: #666; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Informativa sulla privacy</h1>
+  <p class="date">Ultimo aggiornamento: 13 aprile 2026</p>
+
+  <h2>1. Titolare del trattamento</h2>
+  <p>
+    Giacomo Cacciatore<br>
+    E-mail: <a href="mailto:giacomo.c.88@gmail.com">giacomo.c.88@gmail.com</a>
+  </p>
+  <p>
+    Utilizzabile in Svizzera e nell'Unione Europea.
+    La presente informativa è conforme al Regolamento (UE) 2016/679 (GDPR)
+    e alla Legge federale sulla protezione dei dati (LPD/nDSG) in vigore dal 1° settembre 2023.
+  </p>
+
+  <h2>2. Dati raccolti</h2>
+  <ul>
+    <li>Indirizzo e-mail (registrazione e autenticazione)</li>
+    <li>Nome identificativo scelto nell'app</li>
+    <li>Dati turni lavorativi: data, codice turno, orari (estratti da PDF caricati dall'utente)</li>
+    <li>Immagini ritagliate delle celle del PDF (crop PNG, salvati sul dispositivo)</li>
+    <li>File PDF temporanei durante l'elaborazione (non conservati sul server)</li>
+  </ul>
+  <p>
+    Non vengono raccolti dati sanitari, dati biometrici né informazioni sensibili
+    ai sensi dell'art. 9 GDPR / art. 5 nDSG.
+  </p>
+
+  <h2>3. Finalità e base giuridica</h2>
+  <ul>
+    <li>Fornitura del servizio (art. 6 par. 1 lett. b GDPR — esecuzione del contratto)</li>
+    <li>Gestione dell'abbonamento tramite RevenueCat (esecuzione del contratto)</li>
+  </ul>
+  <p>
+    Base giuridica nDSG: elaborazione necessaria per l'esecuzione del contratto
+    e per l'interesse legittimo del titolare (art. 31 LPD).
+  </p>
+
+  <h2>4. Conservazione dei dati</h2>
+  <p>
+    I dati vengono conservati finché l'account è attivo.
+    L'utente può eliminare tutti i propri dati in qualsiasi momento
+    tramite Impostazioni → Reimposta tutti i dati.
+    Dopo la cancellazione i dati sono rimossi entro 30 giorni dai backup.
+    Le immagini ritagliate più vecchie di 12 mesi vengono eliminate automaticamente.
+  </p>
+
+  <h2>5. Terze parti</h2>
+  <ul>
+    <li><strong>Supabase Inc.</strong> (archiviazione dati, autenticazione) —
+      Server in regione: eu-west-1 (Irlanda, UE).
+      DPA disponibile su <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</li>
+    <li><strong>Sentry (Functional Software Inc.)</strong> (monitoraggio errori) —
+      Server in regione: eu-central-1 (Francoforte, UE).
+      Privacy policy: <a href="https://sentry.io/privacy/">sentry.io/privacy</a>.
+      Sentry riceve solo stacktrace tecnici, mai dati personali dell'utente.</li>
+    <li><strong>RevenueCat Inc.</strong> (gestione abbonamenti) —
+      Privacy policy: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.
+      RevenueCat riceve solo un identificatore anonimo dell'acquisto, non i dati dei turni.</li>
+  </ul>
+  <p>Nessun dato viene venduto o ceduto a terzi per finalità pubblicitarie.</p>
+
+  <h2>6. Trasferimento internazionale</h2>
+  <p>
+    I dati di autenticazione e turni sono archiviati in Irlanda (UE) tramite Supabase.
+    I dati di errore sono archiviati in Germania (UE) tramite Sentry.
+    RevenueCat può elaborare dati negli Stati Uniti; il trasferimento avviene sulla base
+    delle Clausole Contrattuali Standard (SCC) adottate dalla Commissione Europea,
+    valide anche ai fini nDSG.
+  </p>
+
+  <h2>7. Diritti dell'interessato</h2>
+  <p>Ai sensi del GDPR (artt. 15-22) e della nDSG (artt. 25-27) hai diritto a:</p>
+  <ul>
+    <li>Accesso ai tuoi dati personali</li>
+    <li>Rettifica dei dati inesatti</li>
+    <li>Cancellazione ("diritto all'oblio") — disponibile direttamente nell'app</li>
+    <li>Portabilità dei dati</li>
+    <li>Opposizione al trattamento</li>
+    <li>Limitazione del trattamento</li>
+  </ul>
+  <p>Per esercitare questi diritti scrivere a: <a href="mailto:giacomo.c.88@gmail.com">giacomo.c.88@gmail.com</a></p>
+
+  <h2>8. Autorità di controllo</h2>
+  <p>
+    Svizzera: Incaricato federale della protezione dei dati e della trasparenza (IFPDT) —
+    <a href="https://www.edoeb.admin.ch">edoeb.admin.ch</a><br>
+    UE/Italia: Garante per la protezione dei dati personali —
+    <a href="https://www.garanteprivacy.it">garanteprivacy.it</a>
+  </p>
+
+  <h2>9. Sicurezza</h2>
+  <p>
+    I dati sono protetti da Row Level Security (RLS) su Supabase:
+    ogni utente accede esclusivamente ai propri dati.
+    La comunicazione avviene tramite HTTPS/TLS.
+    I token di autenticazione sono conservati in modo cifrato sul dispositivo
+    (Keychain su iOS, Keystore su Android).
+  </p>
+
+  <h2>10. Modifiche</h2>
+  <p>
+    Eventuali modifiche sostanziali saranno notificate tramite l'app.
+    L'uso continuato dell'app dopo la notifica costituisce accettazione.
+  </p>
+</body>
+</html>
